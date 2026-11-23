@@ -63,11 +63,11 @@
     </object-folder>
     <families />
     <layout-folder>
-        <layout>Layout 1.xml</layout>
+        <layout>L_MenuUtama.xml</layout>
         <layout>L_Splash.xml</layout>
     </layout-folder>
     <event-folder>
-        <event-sheet>Event sheet 1.xml</event-sheet>
+        <event-sheet>ES_MenuUtama.xml</event-sheet>
         <event-sheet>ES_Splash.xml</event-sheet>
     </event-folder>
     <global-instances>
