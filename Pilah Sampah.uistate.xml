@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2uistate>
+    <!--This is a UI state file - its content describes the user interface settings when the project was last open.
+It is entirely optional and the project will load without it.  If you are placing the project under source control,
+you probably do not want to add any .uistate.xml files to the repository.-->
+    <configurations>
+        <active>
+            <configuration name="HTML5" />
+        </active>
+        <display name="HTML5" />
+    </configurations>
+    <open-tabs>
+        <layout order="4">Layout_Simulasi</layout>
+        <layout order="5">Layout_PilihLevel</layout>
+        <layout active="1" order="13">Layout_Menu</layout>
+        <event-sheet order="3">ES_Simulasi</event-sheet>
+        <event-sheet order="6">ES_PilihLevel</event-sheet>
+        <event-sheet order="7">ES_Pengaturan</event-sheet>
+        <event-sheet order="8">ES_Menu</event-sheet>
+        <event-sheet order="9">ES_Materi</event-sheet>
+        <event-sheet order="10">ES_Hasil</event-sheet>
+        <event-sheet order="11">ES_Gameplay</event-sheet>
+        <event-sheet order="12">ES_Credits</event-sheet>
+    </open-tabs>
+    <properties>
+        <property expanded="1" name="About" />
+        <property expanded="1" name="Project settings" />
+        <property expanded="1" name="Window Size" />
+        <property expanded="1" name="Configuration Settings" />
+    </properties>
+    <families-expanded root="1" />
+    <folders-expanded>
+        <folder expanded="1" path="object-folder/" />
+        <folder expanded="1" path="object-folder/Button/" />
+        <folder expanded="1" path="object-folder/Background/" />
+        <folder expanded="0" path="object-folder/Banner/" />
+        <folder expanded="0" path="object-folder/Sampah/" />
+        <folder expanded="1" path="object-folder/Sampah/Organik/" />
+        <folder expanded="1" path="object-folder/Sampah/Anorganik/" />
+        <folder expanded="0" path="object-folder/Pendukung/" />
+        <folder expanded="1" path="object-folder/Text/" />
+        <folder expanded="0" path="object-folder/Popup/" />
+        <folder expanded="0" path="object-folder/Panel/" />
+        <folder expanded="1" path="object-folder/Toggle/" />
+        <folder expanded="0" path="layout-folder/" />
+        <folder expanded="0" path="event-folder/" />
+        <folder expanded="0" path="file-folder/" />
+        <folder expanded="0" path="sound-folder/" />
+        <folder expanded="1" path="music-folder/" />
+        <folder expanded="1" path="file-folder/Icons/" />
+        <folder expanded="1" path="animation-folder/Btn_Keluar/" />
+        <folder expanded="1" path="animation-folder/Btn_Credits/" />
+        <folder expanded="1" path="animation-folder/Btn_Pengaturan/" />
+        <folder expanded="1" path="animation-folder/Btn_Materi/" />
+        <folder expanded="1" path="animation-folder/Btn_Kembali/" />
+        <folder expanded="1" path="animation-folder/Btn_Mulai/" />
+        <folder expanded="1" path="animation-folder/Btn_Simulasi/" />
+        <folder expanded="1" path="animation-folder/Btn_YaHapus/" />
+        <folder expanded="1" path="animation-folder/Btn_Mengerti/" />
+        <folder expanded="1" path="animation-folder/Btn_CaraBermain/" />
+        <folder expanded="1" path="animation-folder/Btn_SimpanKembali/" />
+        <folder expanded="1" path="animation-folder/Btn_ResetSkor/" />
+        <folder expanded="1" path="animation-folder/Btn_CreditsSet/" />
+        <folder expanded="1" path="animation-folder/Btn_Batal/" />
+        <folder expanded="1" path="animation-folder/Btn_AksiSimulasi/" />
+        <folder expanded="1" path="animation-folder/Btn_BerandaSimulasi/" />
+        <folder expanded="1" path="animation-folder/Btn_HomeHasilSimulasi/" />
+        <folder expanded="1" path="animation-folder/Btn_MateriSimulasi/" />
+        <folder expanded="1" path="animation-folder/Btn_MulaiBermainHasilSimulasi/" />
+        <folder expanded="1" path="animation-folder/Btn_UlangiHasilSimulasi/" />
+        <folder expanded="1" path="animation-folder/Bg_Kelas/" />
+        <folder expanded="1" path="animation-folder/Bg_Menu/" />
+        <folder expanded="1" path="animation-folder/Bg_Lapangan/" />
+        <folder expanded="1" path="animation-folder/Banner_Menu/" />
+        <folder expanded="1" path="animation-folder/Banner_MisiSim/" />
+        <folder expanded="1" path="animation-folder/ObjekSampah/" />
+        <folder expanded="1" path="animation-folder/Karakter_Menu/" />
+        <folder expanded="1" path="animation-folder/Tong_Anorganik/" />
+        <folder expanded="1" path="animation-folder/Tong_Organik/" />
+        <folder expanded="1" path="animation-folder/Ikon_Speaker_SFX/" />
+        <folder expanded="1" path="animation-folder/Hati_1/" />
+        <folder expanded="1" path="animation-folder/Hati_2/" />
+        <folder expanded="1" path="animation-folder/Hati_3/" />
+        <folder expanded="1" path="animation-folder/Siswa_Depan/" />
+        <folder expanded="1" path="animation-folder/Siswa_Samping/" />
+        <folder expanded="1" path="animation-folder/Hitbox_Siswa/" />
+        <folder expanded="1" path="animation-folder/Popup_ResetSkor/" />
+        <folder expanded="1" path="animation-folder/Popup_CaraBermain/" />
+        <folder expanded="1" path="animation-folder/Popup_HasilSim/" />
+        <folder expanded="1" path="animation-folder/Panel_Papan_Tulis/" />
+        <folder expanded="1" path="animation-folder/Panel_Pengaturan/" />
+        <folder expanded="1" path="animation-folder/Hud_SkorSim/" />
+        <folder expanded="1" path="animation-folder/Hud_WadahHati/" />
+        <folder expanded="1" path="animation-folder/Toggle_SFX/" />
+        <folder expanded="1" path="animation-folder/Toggle_BGM/" />
+        <folder expanded="1" path="animation-folder/Panah_Atas/" />
+        <folder expanded="1" path="animation-folder/Panah_Kanan/" />
+        <folder expanded="1" path="animation-folder/Panah_Bawah/" />
+        <folder expanded="1" path="animation-folder/Panah_Kiri/" />
+        <folder expanded="1" path="animation-folder/Bg_PilihLevel/" />
+        <folder expanded="1" path="animation-folder/Banner_PilihLevel/" />
+        <folder expanded="1" path="animation-folder/Btn_Level1/" />
+        <folder expanded="1" path="animation-folder/Btn_Level2/" />
+        <folder expanded="1" path="animation-folder/Btn_Level3/" />
+        <folder expanded="1" path="animation-folder/Bintang_Level1/" />
+        <folder expanded="1" path="animation-folder/Bintang_Level2/" />
+        <folder expanded="1" path="animation-folder/Bintang_Level3/" />
+        <folder expanded="1" path="animation-folder/Gembok_Level2/" />
+        <folder expanded="1" path="animation-folder/Gembok_Level3/" />
+        <folder expanded="1" path="animation-folder/hk/" />
+    </folders-expanded>
+</c2uistate>
