@@ -32,6 +32,7 @@
                 </event-block>
             </sub-events>
         </event-block>
+        <comment>button</comment>
         <event-block sid="952138246580944">
             <conditions>
                 <condition id="3" name="On touched object" sid="844369811497490" type="Touch">
@@ -49,11 +50,87 @@
                     <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
                 </condition>
             </conditions>
-            <actions />
+            <actions>
+                <action id="-4" name="Set layer visible" sid="805321665968332" type="System">
+                    <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
+                    <param id="1" name="Visibility">1</param>
+                </action>
+            </actions>
             <sub-events>
                 <event-block sid="531762569504537">
                     <conditions>
                         <condition id="-14" name="Compare variable" sid="762966174689687" type="System">
+                            <param id="0" name="Variable">DB_SfxAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="983813941381944">
+            <conditions>
+                <condition id="3" name="On touched object" sid="604642534555800" type="Touch">
+                    <param id="0" name="Object">Btn_Materi</param>
+                </condition>
+                <condition id="-9" inverted="1" name="Layer is visible" sid="393906074759057" type="System">
+                    <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="372253561009129" type="System">
+                    <param id="0" name="Layout">L_Materi</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="579213708473164">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="353215768532242" type="System">
+                            <param id="0" name="Variable">DB_SfxAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="828832457536236">
+            <conditions>
+                <condition id="3" name="On touched object" sid="747714811740145" type="Touch">
+                    <param id="0" name="Object">Btn_TutupPopup</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="567119403963157" type="System">
+                    <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="533397697742028" type="System">
+                    <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="939344213146506">
+            <conditions>
+                <condition id="3" name="On touched object" sid="290466766005416" type="Touch">
+                    <param id="0" name="Object">Btn_TutupMerah</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="668114079163950" type="System">
+                    <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="744703765245805" type="System">
+                    <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="926160378691241">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="225507830549804" type="System">
                             <param id="0" name="Variable">DB_SfxAktif</param>
                             <param id="1" name="Comparison">0</param>
                             <param id="2" name="Value">1</param>

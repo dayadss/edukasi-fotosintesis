@@ -63,25 +63,6 @@
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Bg_HutanUtama" sid="839768467734697">
-            <plugin id="Sprite" />
-            <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="773402026074448" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image_hx3byjhx3byjhx3b.png">
-                        <collision-poly>
-                            <point x="0.0596829" y="0.107999" />
-                            <point x="0.5" y="0.00203513" />
-                            <point x="0.961406" y="0.070294" />
-                            <point x="0.998856" y="0.5" />
-                            <point x="0.952316" y="0.913454" />
-                            <point x="0.5" y="0.997965" />
-                            <point x="0.0476842" y="0.913454" />
-                            <point x="0.00114363" y="0.5" />
-                        </collision-poly>
-                    </frame>
-                </animation>
-            </animation-folder>
-        </object-type>
         <object-type name="Char_Petualang" sid="485100002503532">
             <plugin id="Sprite" />
             <animation-folder>
@@ -439,6 +420,14 @@
         <object-type name="Txt_IsiMateri" sid="213596839995314">
             <plugin id="Text" />
         </object-type>
+        <object-type name="Bg_HutanUtama" sid="151165178707648">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="520413402745865" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\Gemini_Generated_Image_hx3byjhx3byjhx3b.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
@@ -452,12 +441,12 @@
         <event-sheet>ES_Materi.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Touch" uid="23">
+        <global-instance type="Touch" uid="41">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
-        <global-instance type="Audio" uid="3">
+        <global-instance type="Audio" uid="42">
             <properties>
                 <timescale-audio>Off</timescale-audio>
                 <saveload>All</saveload>
@@ -471,7 +460,7 @@
                 <roll-off-factor>1</roll-off-factor>
             </properties>
         </global-instance>
-        <global-instance type="Function" uid="4" />
+        <global-instance type="Function" uid="43" />
     </global-instances>
     <sounds-folder />
     <music-folder />

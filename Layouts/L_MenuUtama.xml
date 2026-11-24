@@ -40,10 +40,10 @@
                     <effect-fallback>0</effect-fallback>
                     <world>
                         <x>640</x>
-                        <y>362</y>
+                        <y>360</y>
                         <z>0</z>
-                        <width>1280</width>
-                        <height>720</height>
+                        <width>1285</width>
+                        <height>725</height>
                         <depth>0</depth>
                         <hotspotX>0.5</hotspotX>
                         <hotspotY>0.5</hotspotY>
@@ -160,7 +160,7 @@
                         <text>Mulai</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Unispace,-36,700,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -209,7 +209,7 @@
                         <text>Materi</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Unispace,-32,700,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -258,7 +258,7 @@
                         <text>Petunjuk</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Unispace,-32,700,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -307,7 +307,7 @@
                         <text>Pengaturan</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Unispace,-32,700,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>
@@ -356,7 +356,7 @@
                         <text>Tentang</text>
                         <initial-visibility>Visible</initial-visibility>
                         <font>Unispace,-32,700,0</font>
-                        <color>0,0,0</color>
+                        <color>255,255,255</color>
                         <horizontal-alignment>Center</horizontal-alignment>
                         <vertical-alignment>Center</vertical-alignment>
                         <hotspot>Top-left</hotspot>

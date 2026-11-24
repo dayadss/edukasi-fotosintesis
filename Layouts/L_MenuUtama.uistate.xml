@@ -25,15 +25,10 @@ you probably do not want to add any .uistate.xml files to the repository.-->
     </properties>
     <active-layer name="Popup_Pengaturan" />
     <layers>
-<<<<<<< HEAD
-        <layer locked="1" name="Layer 0" parallax-in-editor="0" visible="1" />
-=======
-        <layer locked="1" name="Background" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Layer 1" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="game" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="Layer 0" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="Background" parallax-in-editor="0" visible="1" />
+        <layer locked="0" name="game" parallax-in-editor="0" visible="1" />
         <layer locked="0" name="UI" parallax-in-editor="0" visible="1" />
-        <layer locked="0" name="Popup_Pengaturan" parallax-in-editor="0" visible="0" />
->>>>>>> a3bf1ef9b64d8b2483c57ccebf849774567987be
+        <layer locked="0" name="Popup_Pengaturan" parallax-in-editor="0" visible="1" />
     </layers>
 </c2uistate>

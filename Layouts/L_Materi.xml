@@ -29,7 +29,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Bg_LangitBukit" uid="6">
+                <instance type="Bg_LangitBukit" uid="23">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -88,7 +88,7 @@
             <blend-mode>0</blend-mode>
             <effect-fallback>0</effect-fallback>
             <instances>
-                <instance type="Btn_HomeMateri" uid="5">
+                <instance type="Btn_HomeMateri" uid="24">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -110,7 +110,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Panel_BannerJudul" uid="7">
+                <instance type="Panel_BannerJudul" uid="25">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -132,7 +132,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Panel_KontenMateri" uid="8">
+                <instance type="Panel_KontenMateri" uid="26">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -154,7 +154,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Btn_TabMateri" uid="9">
+                <instance type="Btn_TabMateri" uid="27">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -179,7 +179,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Btn_TabMateri" uid="10">
+                <instance type="Btn_TabMateri" uid="28">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -204,7 +204,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Btn_TabMateri" uid="11">
+                <instance type="Btn_TabMateri" uid="29">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -229,7 +229,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Btn_TabMateri" uid="12">
+                <instance type="Btn_TabMateri" uid="30">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -254,7 +254,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Btn_TabMateri" uid="13">
+                <instance type="Btn_TabMateri" uid="31">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -279,7 +279,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Img_IlustrasiMateri" uid="14">
+                <instance type="Img_IlustrasiMateri" uid="32">
                     <properties>
                         <initial-visibility>Visible</initial-visibility>
                         <initial-animation>Default</initial-animation>
@@ -301,7 +301,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Txt_JudulMateri" uid="15">
+                <instance type="Txt_JudulMateri" uid="33">
                     <properties>
                         <text>Materi Fotosintesis</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -328,7 +328,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Txt_Tab1" uid="16">
+                <instance type="Txt_Tab1" uid="34">
                     <properties>
                         <text>Pengertian</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -355,7 +355,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Txt_Tab2" uid="17">
+                <instance type="Txt_Tab2" uid="35">
                     <properties>
                         <text>Bahan</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -382,7 +382,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Txt_Tab3" uid="18">
+                <instance type="Txt_Tab3" uid="36">
                     <properties>
                         <text>Proses</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -409,7 +409,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Txt_Tab4" uid="19">
+                <instance type="Txt_Tab4" uid="37">
                     <properties>
                         <text>Hasil</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -436,7 +436,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Txt_Tab5" uid="20">
+                <instance type="Txt_Tab5" uid="38">
                     <properties>
                         <text>Manfaat</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -463,7 +463,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Txt_SubJudulMateri" uid="21">
+                <instance type="Txt_SubJudulMateri" uid="39">
                     <properties>
                         <text>Apa itu Fotosintesis?</text>
                         <initial-visibility>Visible</initial-visibility>
@@ -490,7 +490,7 @@
                         <opacity>1</opacity>
                     </world>
                 </instance>
-                <instance type="Txt_IsiMateri" uid="22">
+                <instance type="Txt_IsiMateri" uid="40">
                     <properties>
                         <text>Fotosintesis adalah proses pembuatan makanan pada tumbuhan hijau dengan bantuan cahaya matahari, air, dan karbon dioksida.</text>
                         <initial-visibility>Visible</initial-visibility>

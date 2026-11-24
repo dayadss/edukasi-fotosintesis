@@ -182,5 +182,17 @@
                 </action>
             </actions>
         </event-block>
+        <event-block sid="401977678206626">
+            <conditions>
+                <condition id="3" name="On touched object" sid="400187788364166" type="Touch">
+                    <param id="0" name="Object">Btn_HomeMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-2" name="Go to layout" sid="445740804425551" type="System">
+                    <param id="0" name="Layout">L_MenuUtama</param>
+                </action>
+            </actions>
+        </event-block>
     </events>
 </c2eventsheet>
