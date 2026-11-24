@@ -3,14 +3,8 @@
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ES_Splash</name>
     <events>
-        <variable constant="0" name="DB_MusikAktif" sid="815954336241731" static="0" type="number">1</variable>
         <event-block sid="793016783951776">
-            <conditions>
-                <condition id="3" name="On touched object" sid="309313122804884" type="Touch">
-                    <param id="0" name="Object">Logo_JudulGame</param>
-                </condition>
-                <condition id="-9" name="Is visible" sid="385475410049578" type="Bg_HutanUtama" />
-            </conditions>
+            <conditions />
             <actions>
                 <action id="-2" name="Go to layout" sid="247925627492422" type="System">
                     <param id="0" name="Layout">L_MenuUtama</param>

@@ -2,5 +2,66 @@
 <c2eventsheet>
     <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
     <name>ES_MenuUtama</name>
-    <events />
+    <events>
+        <variable constant="0" name="DB_SfxAktif" sid="635139631444676" static="0" type="number">1</variable>
+        <variable constant="0" name="DB_MusikAktif" sid="835523601649837" static="0" type="number">1</variable>
+        <event-block sid="262603822828092">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="601958945261274" type="System" />
+            </conditions>
+            <actions>
+                <action id="-4" name="Set layer visible" sid="843923517796571" type="System">
+                    <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
+                    <param id="1" name="Visibility">0</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="369580218461573">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="262070864528893" type="System">
+                            <param id="0" name="Variable">DB_MusikAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="582343844532163" type="Icon_Sakelar_Musik">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="952138246580944">
+            <conditions>
+                <condition id="3" name="On touched object" sid="844369811497490" type="Touch">
+                    <param id="0" name="Object">Btn_Mulai</param>
+                </condition>
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="872762551543950">
+            <conditions>
+                <condition id="3" name="On touched object" sid="133090100595558" type="Touch">
+                    <param id="0" name="Object">Btn_Pengaturan</param>
+                </condition>
+                <condition id="-9" inverted="1" name="Layer is visible" sid="221396040198830" type="System">
+                    <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="531762569504537">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="762966174689687" type="System">
+                            <param id="0" name="Variable">DB_SfxAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+    </events>
 </c2eventsheet>
