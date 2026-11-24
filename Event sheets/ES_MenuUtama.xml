@@ -29,6 +29,57 @@
                             <param id="0" name="Frame number">0</param>
                         </action>
                     </actions>
+                    <sub-events>
+                        <event-block sid="159123842338192">
+                            <conditions>
+                                <condition id="5" inverted="1" name="Is tag playing" sid="371998515973725" type="Audio">
+                                    <param id="0" name="Tag">&quot;bgm_menu&quot;</param>
+                                </condition>
+                            </conditions>
+                            <actions>
+                                <action id="6" name="Stop" sid="935136278403185" type="Audio">
+                                    <param id="0" name="Tag">&quot;bgm_kuis&quot;</param>
+                                </action>
+                            </actions>
+                        </event-block>
+                    </sub-events>
+                </event-block>
+                <event-block sid="543144462589917">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="825906132229755" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="135905929280743" type="Icon_Sakelar_Musik">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="6" name="Stop" sid="302247866250415" type="Audio">
+                            <param id="0" name="Tag">&quot;bgm_menu&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="471099471160686">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="321505310435213" type="System">
+                            <param id="0" name="Variable">DB_SfxAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="467222699594646" type="Icon_Sakelar_Sfx">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="103980322823280">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="362786074192493" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="603865882564103" type="Icon_Sakelar_Sfx">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-block>
@@ -137,6 +188,99 @@
                         </condition>
                     </conditions>
                     <actions />
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="945787382144863">
+            <conditions>
+                <condition id="3" name="On touched object" sid="886218172565159" type="Touch">
+                    <param id="0" name="Object">Icon_Sakelar_Musik</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="706035385453594" type="System">
+                    <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="156124945664773">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="672005098330159" type="System">
+                            <param id="0" name="Variable">DB_MusikAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="664711427713964" type="System">
+                            <param id="0" name="Variable">DB_MusikAktif</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="850446068260849" type="Icon_Sakelar_Musik">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                        <action id="6" name="Stop" sid="697084147559260" type="Audio">
+                            <param id="0" name="Tag">&quot;bgm_menu&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="549790732575398">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="542148228152412" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="668041573763421" type="System">
+                            <param id="0" name="Variable">DB_MusikAktif</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="345945281908792" type="Icon_Sakelar_Musik">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="278232698871193">
+            <conditions>
+                <condition id="3" name="On touched object" sid="255674469325501" type="Touch">
+                    <param id="0" name="Object">Icon_Sakelar_Sfx</param>
+                </condition>
+                <condition id="-9" name="Layer is visible" sid="228081852398814" type="System">
+                    <param id="0" name="Layer">&quot;Popup_Pengaturan&quot;</param>
+                </condition>
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="594557335869540">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="997200198504663" type="System">
+                            <param id="0" name="Variable">DB_SfxAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="126966973902864" type="System">
+                            <param id="0" name="Variable">DB_SfxAktif</param>
+                            <param id="1" name="Value">0</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="630587441631816" type="Icon_Sakelar_Sfx">
+                            <param id="0" name="Frame number">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="928073834968873">
+                    <conditions>
+                        <condition id="-22" name="Else" sid="335582675210714" type="System" />
+                    </conditions>
+                    <actions>
+                        <action id="-9" name="Set value" sid="873161103379968" type="System">
+                            <param id="0" name="Variable">DB_SfxAktif</param>
+                            <param id="1" name="Value">1</param>
+                        </action>
+                        <action id="5" name="Set frame" sid="884418049334866" type="Icon_Sakelar_Sfx">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
                 </event-block>
             </sub-events>
         </event-block>

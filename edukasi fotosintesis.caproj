@@ -245,18 +245,6 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974171248033248" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image (2).png">
-                        <collision-poly>
-                            <point x="0.0818815" y="0.157718" />
-                            <point x="0.5" y="0.0100671" />
-                            <point x="0.918118" y="0.157718" />
-                            <point x="0.991289" y="0.5" />
-                            <point x="0.918118" y="0.842282" />
-                            <point x="0.5" y="0.989933" />
-                            <point x="0.0818815" y="0.842282" />
-                            <point x="0.0087108" y="0.5" />
-                        </collision-poly>
-                    </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image (1).png">
                         <collision-poly>
                             <point x="0.0749729" y="0.164391" />
@@ -267,6 +255,18 @@
                             <point x="0.5" y="0.975052" />
                             <point x="0.0749729" y="0.835609" />
                             <point x="0.01532" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image (2).png">
+                        <collision-poly>
+                            <point x="0.0818815" y="0.157718" />
+                            <point x="0.5" y="0.0100671" />
+                            <point x="0.918118" y="0.157718" />
+                            <point x="0.991289" y="0.5" />
+                            <point x="0.918118" y="0.842282" />
+                            <point x="0.5" y="0.989933" />
+                            <point x="0.0818815" y="0.842282" />
+                            <point x="0.0087108" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
@@ -282,18 +282,6 @@
             <plugin id="Sprite" />
             <animation-folder>
                 <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="883613352054852" speed="5">
-                    <frame duration="1" hotspotX="0.495495" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image (2).png">
-                        <collision-poly>
-                            <point x="0.0811439" y="0.169942" />
-                            <point x="0.495495" y="0.0275647" />
-                            <point x="0.909847" y="0.169942" />
-                            <point x="0.982359" y="0.5" />
-                            <point x="0.909847" y="0.830058" />
-                            <point x="0.495495" y="0.972435" />
-                            <point x="0.0811439" y="0.830058" />
-                            <point x="0.00863233" y="0.5" />
-                        </collision-poly>
-                    </frame>
                     <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image (1).png">
                         <collision-poly>
                             <point x="0.0634573" y="0.150246" />
@@ -304,6 +292,18 @@
                             <point x="0.5" y="0.995074" />
                             <point x="0.0634573" y="0.849754" />
                             <point x="0.00218818" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.495495" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image (2).png">
+                        <collision-poly>
+                            <point x="0.0811439" y="0.169942" />
+                            <point x="0.495495" y="0.0275647" />
+                            <point x="0.909847" y="0.169942" />
+                            <point x="0.982359" y="0.5" />
+                            <point x="0.909847" y="0.830058" />
+                            <point x="0.495495" y="0.972435" />
+                            <point x="0.0811439" y="0.830058" />
+                            <point x="0.00863233" y="0.5" />
                         </collision-poly>
                     </frame>
                 </animation>
