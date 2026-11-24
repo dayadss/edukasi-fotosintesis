@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>ES_Materi</name>
+    <events>
+        <variable constant="0" name="Materi_TabAktif" sid="235700431961618" static="0" type="number">1</variable>
+        <event-block sid="120338728981519">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="724777121054254" type="System" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="911288474760225" type="System">
+                    <param id="0" name="Variable">Materi_TabAktif</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+                <action id="0" name="Call function" sid="980775241428778" type="Function">
+                    <param id="0" name="Name">&quot;MuatTabMateri&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="535743363780614">
+            <conditions>
+                <condition id="0" name="On function" sid="256992803554063" type="Function">
+                    <param id="0" name="Name">&quot;MuatTabMateri&quot;</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="5" name="Set frame" sid="189368621647193" type="Btn_TabMateri">
+                    <param id="0" name="Frame number">1</param>
+                </action>
+                <action id="5" name="Set frame" sid="153448583614440" type="Img_IlustrasiMateri">
+                    <param id="0" name="Frame number">Materi_TabAktif - 1</param>
+                </action>
+                <action id="4" name="Set font color" sid="392561123427138" type="Txt_Tab1">
+                    <param id="0" name="Color">rgb(58, 36, 16)</param>
+                </action>
+                <action id="4" name="Set font color" sid="586253215266892" type="Txt_Tab2">
+                    <param id="0" name="Color">rgb(58, 36, 16)</param>
+                </action>
+                <action id="4" name="Set font color" sid="437483644269849" type="Txt_Tab3">
+                    <param id="0" name="Color">rgb(58, 36, 16)</param>
+                </action>
+                <action id="4" name="Set font color" sid="805606526118416" type="Txt_Tab4">
+                    <param id="0" name="Color">rgb(58, 36, 16)</param>
+                </action>
+                <action id="4" name="Set font color" sid="695888345731906" type="Txt_Tab5">
+                    <param id="0" name="Color">rgb(58, 36, 16)</param>
+                </action>
+            </actions>
+            <sub-events>
+                <event-block sid="579225482084033">
+                    <conditions>
+                        <condition id="-7" name="Compare instance variable" sid="769764785298849" type="Btn_TabMateri">
+                            <param id="0" name="Instance variable">TabNomor</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">Materi_TabAktif</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="5" name="Set frame" sid="170350200236521" type="Btn_TabMateri">
+                            <param id="0" name="Frame number">0</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="257487279271818">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="875851778933693" type="System">
+                            <param id="0" name="Variable">Materi_TabAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">1</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="114900797361708" type="Txt_Tab1">
+                            <param id="0" name="Color">rgb(255, 255, 255)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="848527545011564" type="Txt_SubJudulMateri">
+                            <param id="0" name="Text">&quot;Apa itu Fotosintesis?&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="568783341507214" type="Txt_IsiMateri">
+                            <param id="0" name="Text">&quot;Fotosintesis adalah proses pembuatan makanan pada tumbuhan hijau dengan bantuan cahaya matahari, air, dan karbon dioksida.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="732926868768643">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="115044770565138" type="System">
+                            <param id="0" name="Variable">Materi_TabAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">2</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="368756108883429" type="Txt_Tab2">
+                            <param id="0" name="Color">rgb(255, 255, 255)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="197977045700036" type="Txt_SubJudulMateri">
+                            <param id="0" name="Text">&quot;Bahan-Bahan Fotosintesis&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="546808843251708" type="Txt_IsiMateri">
+                            <param id="0" name="Text">&quot;Untuk melakukan fotosintesis, tumbuhan membutuhkan 4 bahan utama: cahaya matahari, air (H2O) dari tanah, gas karbon dioksida (CO2) dari udara, dan zat hijau daun (klorofil).&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="406338623197011">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="995585610640686" type="System">
+                            <param id="0" name="Variable">Materi_TabAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">3</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="678718622051621" type="Txt_Tab3">
+                            <param id="0" name="Color">rgb(255, 255, 255)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="363264216280077" type="Txt_SubJudulMateri">
+                            <param id="0" name="Text">&quot;Bagaimana Proses Fotosintesis Terjadi?&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="503964525367390" type="Txt_IsiMateri">
+                            <param id="0" name="Text">&quot;Akar menyerap air menuju daun, lalu mulut daun (stomata) menghirup karbon dioksida. Dengan bantuan energi cahaya matahari, klorofil di daun mengolah air dan CO2 menjadi makanan.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="557606781446512">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="638279767522973" type="System">
+                            <param id="0" name="Variable">Materi_TabAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">4</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="450180954385222" type="Txt_Tab4">
+                            <param id="0" name="Color">rgb(255, 255, 255)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="324294640274415" type="Txt_SubJudulMateri">
+                            <param id="0" name="Text">&quot;Hasil dari Proses Fotosintesis&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="930884232516125" type="Txt_IsiMateri">
+                            <param id="0" name="Text">&quot;Proses fotosintesis menghasilkan dua zat penting: karbohidrat (glukosa) sebagai sumber makanan tumbuhan, serta gas oksigen (O2) yang dilepaskan ke udara.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="977937164882242">
+                    <conditions>
+                        <condition id="-14" name="Compare variable" sid="522221759917899" type="System">
+                            <param id="0" name="Variable">Materi_TabAktif</param>
+                            <param id="1" name="Comparison">0</param>
+                            <param id="2" name="Value">5</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set font color" sid="120490858420356" type="Txt_Tab5">
+                            <param id="0" name="Color">rgb(255, 255, 255)</param>
+                        </action>
+                        <action id="0" name="Set text" sid="105916524451475" type="Txt_SubJudulMateri">
+                            <param id="0" name="Text">&quot;Manfaat Fotosintesis bagi Makhluk Hidup&quot;</param>
+                        </action>
+                        <action id="0" name="Set text" sid="772565562882194" type="Txt_IsiMateri">
+                            <param id="0" name="Text">&quot;Fotosintesis menyediakan oksigen bersih untuk pernapasan manusia dan hewan, serta menghasilkan buah, biji, dan umbi sebagai sumber makanan bagi makhluk hidup.&quot;</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="888174186806779">
+            <conditions>
+                <condition id="3" name="On touched object" sid="136383488654102" type="Touch">
+                    <param id="0" name="Object">Btn_TabMateri</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Set value" sid="913127470751386" type="System">
+                    <param id="0" name="Variable">Materi_TabAktif</param>
+                    <param id="1" name="Value">Btn_TabMateri.TabNomor</param>
+                </action>
+                <action id="0" name="Call function" sid="661554874623258" type="Function">
+                    <param id="0" name="Name">&quot;MuatTabMateri&quot;</param>
+                    <param id="1" name="Parameter {n}"></param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

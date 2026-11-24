@@ -10,7 +10,10 @@
     <unique-id>2a7g1tzojtwwb</unique-id>
     <saved-with-version>26200</saved-with-version>
     <used-plugins>
+        <plugin author="Scirra" id="Audio" version="1">Audio</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors />
@@ -19,8 +22,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
-        <height>480</height>
+        <width>1280</width>
+        <height>720</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -60,15 +63,103 @@
         <object-type name="Touch" sid="512894560116439">
             <plugin id="Touch" />
         </object-type>
+        <object-type name="Audio" sid="232705093755145">
+            <plugin id="Audio" />
+        </object-type>
+        <object-type name="Function" sid="289461917905652">
+            <plugin id="Function" />
+        </object-type>
+        <object-type name="Btn_HomeMateri" sid="547300838022919">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="659813787588637" speed="0">
+                    <frame duration="1" hotspotX="0.500569" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image.jpeg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Bg_LangitBukit" sid="802286268619594">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="108505015885301" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image_6gj2bs6gj2bs6gj2 (1).jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Panel_BannerJudul" sid="722100974479929">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="373839272922537" speed="0">
+                    <frame duration="1" hotspotX="0.498908" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image_4rdswx4rdswx4rds (1).jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Panel_KontenMateri" sid="252978135651638">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="741226030805905" speed="0">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image_4rdswx4rdswx4rds.jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Btn_TabMateri" sid="677902243515254">
+            <plugin id="Sprite" />
+            <instance-variables>
+                <instance-variable name="TabNomor" sid="190186781755548" type="number" />
+            </instance-variables>
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="754271653263167" speed="0">
+                    <frame duration="1" hotspotX="0.498543" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image_4rdswx4rdswx4rds (2).jpg" />
+                    <frame duration="0" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image_4rdswx4rdswx4rds (3).jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Img_IlustrasiMateri" sid="658272077327868">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="5" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="833629272315447" speed="0">
+                    <frame duration="0" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image_4rdswx4rdswx4rds (4).jpg" />
+                    <frame duration="0" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image_4rdswx4rdswx4rds (5).jpg" />
+                    <frame duration="0" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image_4rdswx4rdswx4rds (6).jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image_4rdswx4rdswx4rds (7).jpg" />
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\upgra\OneDrive\Documents\Asset\Gemini_Generated_Image_4rdswx4rdswx4rds (8).jpg" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Txt_JudulMateri" sid="217832300406272">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Txt_Tab1" sid="586133725818475">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Txt_Tab2" sid="122789258564226">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Txt_Tab3" sid="793526803040946">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Txt_Tab4" sid="945157257047920">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Txt_Tab5" sid="297422737036840">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Txt_SubJudulMateri" sid="798182199548899">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Txt_IsiMateri" sid="213596839995314">
+            <plugin id="Text" />
+        </object-type>
     </object-folder>
     <families />
     <layout-folder>
         <layout>L_MenuUtama.xml</layout>
         <layout>L_Splash.xml</layout>
+        <layout>L_Materi.xml</layout>
     </layout-folder>
     <event-folder>
         <event-sheet>ES_MenuUtama.xml</event-sheet>
         <event-sheet>ES_Splash.xml</event-sheet>
+        <event-sheet>ES_Materi.xml</event-sheet>
     </event-folder>
     <global-instances>
         <global-instance type="Touch" uid="2">
@@ -76,6 +167,21 @@
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
         </global-instance>
+        <global-instance type="Audio" uid="3">
+            <properties>
+                <timescale-audio>Off</timescale-audio>
+                <saveload>All</saveload>
+                <play-in-background>No</play-in-background>
+                <positioned-audio></positioned-audio>
+                <panning-model>HRTF</panning-model>
+                <distance-model>Inverse</distance-model>
+                <listener-z-height>600</listener-z-height>
+                <reference-distance>600</reference-distance>
+                <maximum-distance>10000</maximum-distance>
+                <roll-off-factor>1</roll-off-factor>
+            </properties>
+        </global-instance>
+        <global-instance type="Function" uid="4" />
     </global-instances>
     <sounds-folder />
     <music-folder />
