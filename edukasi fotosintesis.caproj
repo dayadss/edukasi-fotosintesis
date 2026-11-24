@@ -11,6 +11,7 @@
     <saved-with-version>26200</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
         <plugin author="Scirra" id="Touch" version="1">Touch</plugin>
     </used-plugins>
     <used-behaviors />
@@ -19,8 +20,8 @@
         <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
     </configurations>
     <window-size>
-        <width>854</width>
-        <height>480</height>
+        <width>1280</width>
+        <height>720</height>
     </window-size>
     <pixel-rounding>0</pixel-rounding>
     <preview-effects>1</preview-effects>
@@ -32,7 +33,7 @@
         <prop name="Fullscreen in browser">Letterbox scale</prop>
         <prop name="Fullscreen scaling">High quality</prop>
         <prop name="Loader style">Construct 2 splash</prop>
-        <prop name="Orientations">Any</prop>
+        <prop name="Orientations">Landscape</prop>
         <prop name="Pause on unfocus">No</prop>
         <prop name="Physics engine">Box2D asm.js</prop>
         <prop name="Preload sounds">Yes</prop>
@@ -41,23 +42,313 @@
         <prop name="Use high-DPI display">Yes</prop>
     </configuration-settings>
     <object-folder>
-        <object-type name="Bg_HutanUtama" sid="981598017284279">
+        <object-type name="Logo_JudulGame" sid="538502374807395">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="153155779430311" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\Downloads\Gemini_Generated_Image_6gj2bs6gj2bs6gj2 (3).jpg" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="880467690452041" speed="5">
+                    <frame duration="1" hotspotX="0.968182" hotspotY="0.609375" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image_hx3byjhx3byjhx3b (1).png">
+                        <collision-poly>
+                            <point x="0.156941" y="0.26802" />
+                            <point x="0.499244" y="0.0825801" />
+                            <point x="0.844939" y="0.262293" />
+                            <point x="0.915775" y="0.5" />
+                            <point x="0.880993" y="0.798566" />
+                            <point x="0.499244" y="0.994746" />
+                            <point x="0.135309" y="0.768495" />
+                            <point x="0.0882266" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Logo_JudulGame" sid="550311735183988">
+        <object-type name="Bg_HutanUtama" sid="839768467734697">
             <plugin id="Sprite" />
             <animation-folder>
-                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="770411903850034" speed="5">
-                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\Downloads\Gemini_Generated_Image_6gj2bs6gj2bs6gj2 (2).jpg" />
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="773402026074448" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image_hx3byjhx3byjhx3b.png">
+                        <collision-poly>
+                            <point x="0.0596829" y="0.107999" />
+                            <point x="0.5" y="0.00203513" />
+                            <point x="0.961406" y="0.070294" />
+                            <point x="0.998856" y="0.5" />
+                            <point x="0.952316" y="0.913454" />
+                            <point x="0.5" y="0.997965" />
+                            <point x="0.0476842" y="0.913454" />
+                            <point x="0.00114363" y="0.5" />
+                        </collision-poly>
+                    </frame>
                 </animation>
             </animation-folder>
         </object-type>
-        <object-type name="Touch" sid="512894560116439">
+        <object-type name="Char_Petualang" sid="485100002503532">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="530230103420557" speed="5">
+                    <frame duration="1" hotspotX="0.714286" hotspotY="1.08597" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image_hx3byjhx3byjhx3b (2).png">
+                        <collision-poly>
+                            <point x="0.148538" y="0.0786958" />
+                            <point x="0.5" y="0.0142339" />
+                            <point x="0.778746" y="0.117373" />
+                            <point x="0.653224" y="0.5" />
+                            <point x="0.640239" y="0.808956" />
+                            <point x="0.5" y="0.967348" />
+                            <point x="0.198747" y="0.894599" />
+                            <point x="0.0671651" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Btn_Mulai" sid="290614473035998">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="126500836132768" speed="5">
+                    <frame duration="1" hotspotX="0.366667" hotspotY="1.39286" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image.png">
+                        <collision-poly>
+                            <point x="0.0276498" y="0.104348" />
+                            <point x="0.5" y="0.0130435" />
+                            <point x="0.97235" y="0.104348" />
+                            <point x="0.989631" y="0.5" />
+                            <point x="0.97235" y="0.895652" />
+                            <point x="0.5" y="0.986957" />
+                            <point x="0.0276498" y="0.895652" />
+                            <point x="0.0103687" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Txt_BtnMulai" sid="967783599083781">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Btn_Materi" sid="867567138733699">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="516498014772109" speed="5">
+                    <frame duration="1" hotspotX="0.326667" hotspotY="1.21429" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image.png">
+                        <collision-poly>
+                            <point x="0.0205128" y="0.1" />
+                            <point x="0.5" y="0.0075" />
+                            <point x="0.979487" y="0.1" />
+                            <point x="0.994359" y="0.5" />
+                            <point x="0.98" y="0.9025" />
+                            <point x="0.5" y="0.9925" />
+                            <point x="0.02" y="0.9025" />
+                            <point x="0.00564103" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Txt_BtnMateri" sid="559612744268662">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Btn_Petunjuk" sid="385071411403963">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="833766900878587" speed="5">
+                    <frame duration="1" hotspotX="2.13333" hotspotY="9.68421" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image.png">
+                        <collision-poly>
+                            <point x="0.0204447" y="0.127379" />
+                            <point x="0.498339" y="0.0411751" />
+                            <point x="0.976233" y="0.127379" />
+                            <point x="0.991055" y="0.500154" />
+                            <point x="0.976744" y="0.875258" />
+                            <point x="0.498339" y="0.959133" />
+                            <point x="0.0199336" y="0.875258" />
+                            <point x="0.00562228" y="0.500154" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Txt_BtnPetunjuk" sid="512635673432597">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Btn_Pengaturan" sid="433263324292234">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="722761864775148" speed="5">
+                    <frame duration="1" hotspotX="2.13333" hotspotY="10.6552" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image.png">
+                        <collision-poly>
+                            <point x="0.0205128" y="0.113793" />
+                            <point x="0.5" y="0.0244828" />
+                            <point x="0.979487" y="0.113793" />
+                            <point x="0.994359" y="0.5" />
+                            <point x="0.98" y="0.888621" />
+                            <point x="0.5" y="0.975517" />
+                            <point x="0.02" y="0.888621" />
+                            <point x="0.00564103" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Txt_BtnPengaturan" sid="982150810959135">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Btn_Tentang" sid="932454296600827">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="665725194289396" speed="5">
+                    <frame duration="1" hotspotX="2.13333" hotspotY="11.8103" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image.png">
+                        <collision-poly>
+                            <point x="0.0205128" y="0.113793" />
+                            <point x="0.5" y="0.0244828" />
+                            <point x="0.979487" y="0.113793" />
+                            <point x="0.994359" y="0.5" />
+                            <point x="0.98" y="0.888621" />
+                            <point x="0.5" y="0.975517" />
+                            <point x="0.02" y="0.888621" />
+                            <point x="0.00564103" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Txt_BtnTentang" sid="511132436617697">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Overlay_Gelap" sid="285164634970787">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="692498797628016" speed="5">
+                    <frame duration="1" hotspotX="0.354134" hotspotY="0.470914" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image_hx3byjhx3byjhx3b (7).png" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Panel_Popup" sid="332116272316700">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="400186837793919" speed="5">
+                    <frame duration="1" hotspotX="1.03226" hotspotY="0.818182" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image_hx3byjhx3byjhx3b (4).png">
+                        <collision-poly>
+                            <point x="0.0427666" y="0.0676127" />
+                            <point x="0.5" y="0.00166945" />
+                            <point x="0.957761" y="0.066778" />
+                            <point x="0.998944" y="0.5" />
+                            <point x="0.9868" y="0.979132" />
+                            <point x="0.5" y="0.998331" />
+                            <point x="0.0131996" y="0.979132" />
+                            <point x="0.00105597" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Txt_JudulPengaturan" sid="256370735423352">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Btn_TutupMerah" sid="440762547548049">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="516766783920420" speed="5">
+                    <frame duration="1" hotspotX="14.5625" hotspotY="2.59375" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image.png">
+                        <collision-poly>
+                            <point x="0.151786" y="0.1475" />
+                            <point x="0.5" y="0.0025" />
+                            <point x="0.84949" y="0.14625" />
+                            <point x="0.997449" y="0.5" />
+                            <point x="0.84949" y="0.85375" />
+                            <point x="0.5" y="0.9975" />
+                            <point x="0.15051" y="0.85375" />
+                            <point x="0.00255102" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Icon_Sakelar_Musik" sid="583753576674991">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="974171248033248" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image (2).png">
+                        <collision-poly>
+                            <point x="0.0818815" y="0.157718" />
+                            <point x="0.5" y="0.0100671" />
+                            <point x="0.918118" y="0.157718" />
+                            <point x="0.991289" y="0.5" />
+                            <point x="0.918118" y="0.842282" />
+                            <point x="0.5" y="0.989933" />
+                            <point x="0.0818815" y="0.842282" />
+                            <point x="0.0087108" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image (1).png">
+                        <collision-poly>
+                            <point x="0.0749729" y="0.164391" />
+                            <point x="0.5" y="0.0249475" />
+                            <point x="0.925027" y="0.164391" />
+                            <point x="0.98468" y="0.5" />
+                            <point x="0.925027" y="0.835609" />
+                            <point x="0.5" y="0.975052" />
+                            <point x="0.0749729" y="0.835609" />
+                            <point x="0.01532" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Txt_LabelMusik" sid="802598063326122">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Txt_LabelSfx" sid="771852232923991">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Icon_Sakelar_Sfx" sid="687192490782161">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="2" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="883613352054852" speed="5">
+                    <frame duration="1" hotspotX="0.495495" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image (2).png">
+                        <collision-poly>
+                            <point x="0.0811439" y="0.169942" />
+                            <point x="0.495495" y="0.0275647" />
+                            <point x="0.909847" y="0.169942" />
+                            <point x="0.982359" y="0.5" />
+                            <point x="0.909847" y="0.830058" />
+                            <point x="0.495495" y="0.972435" />
+                            <point x="0.0811439" y="0.830058" />
+                            <point x="0.00863233" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\Gemini_Generated_Image (1).png">
+                        <collision-poly>
+                            <point x="0.0634573" y="0.150246" />
+                            <point x="0.5" y="0.00492611" />
+                            <point x="0.936543" y="0.150246" />
+                            <point x="0.997812" y="0.5" />
+                            <point x="0.936543" y="0.849754" />
+                            <point x="0.5" y="0.995074" />
+                            <point x="0.0634573" y="0.849754" />
+                            <point x="0.00218818" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Btn_TutupPopup" sid="213282594351021">
+            <plugin id="Sprite" />
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="312974551659963" speed="5">
+                    <frame duration="1" hotspotX="0.354167" hotspotY="0.428571" original-source="C:\Users\HYPE 7 AMD X8-1\OneDrive\Documents\App Fotosintesis\output\BUTON HIJAU.png">
+                        <collision-poly>
+                            <point x="0.0191638" y="0.144295" />
+                            <point x="0.5" y="0.00671141" />
+                            <point x="0.980836" y="0.144295" />
+                            <point x="0.998839" y="0.5" />
+                            <point x="0.977933" y="0.838926" />
+                            <point x="0.5" y="0.993289" />
+                            <point x="0.0220674" y="0.838926" />
+                            <point x="0.00116144" y="0.5" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="Txt_BtnTutupPopup" sid="281780525298106">
+            <plugin id="Text" />
+        </object-type>
+        <object-type name="Touch" sid="694139049670913">
             <plugin id="Touch" />
         </object-type>
     </object-folder>
@@ -71,7 +362,7 @@
         <event-sheet>ES_Splash.xml</event-sheet>
     </event-folder>
     <global-instances>
-        <global-instance type="Touch" uid="2">
+        <global-instance type="Touch" uid="23">
             <properties>
                 <use-mouse-input>Yes</use-mouse-input>
             </properties>
